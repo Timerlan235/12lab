@@ -71,7 +71,7 @@ public class Main {
     //факториал
     static double f(int g) {
         double fact = 1;
-        for (int i = 2; i <= g; i++) {
+        for (int i = 1; i <= g; i++) {
             fact *= i;
         }
         return fact;
